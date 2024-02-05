@@ -55,23 +55,64 @@
 	margin: auto;
 }
 
-.links a {
+.home a {
+	font-family: Source Code Pro;
+	text-decoration: underline;
+	color: #D9B26A;
+}
+
+.home a:visited {
+	color: #400D01;
+	text-decoration: none;
+}
+
+.home a:hover {
+	color: #D9B26A;
+	text-decoration: underline
+}
+
+.home a:active {
+	color: #D9B26A;
+	text-decoration: none;
+}
+
+.about a:link {
+	font-family: Source Code Pro;
+	text-decoration: none;
+	color: #400D01;
+}
+.about a:visited {
+	color: #400D01;
+	text-decoration: none;
+}
+
+.about a:hover {
+	color: #D9B26A;
+	text-decoration: underline
+}
+
+.about a:active {
+	color: #D9B26A;
+	text-decoration: none;
+}
+
+.hobbies a:link {
 	font-family: Source Code Pro;
 	text-decoration: none;
 	color: #400D01;
 }
 
-.links a:visited {
+.hobbies a:visited {
 	color: #400D01;
 	text-decoration: none;
 }
 
-.links a:hover {
+.hobbies a:hover {
 	color: #D9B26A;
 	text-decoration: underline
 }
 
-.links a:active {
+.hobbies a:active {
 	color: #D9B26A;
 	text-decoration: none;
 }
