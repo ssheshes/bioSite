@@ -12,12 +12,13 @@
 	margin: auto;
 }
 
+/* navbar */
 #navbar {
 	width: 90%;
 	height: 64px;
 	margin: auto;
 	line-height: 10px;
-	padding-bottom: 5px;
+	padding-bottom: 30px;
 }
 
 .title {
@@ -55,25 +56,37 @@
 	margin: auto;
 }
 
-.links a {
+.home a {
 	font-family: Source Code Pro;
 	text-decoration: none;
 	color: #400D01;
 }
 
-.links a:visited {
-	color: #400D01;
-	text-decoration: none;
-}
-
-.links a:hover {
+.home a:hover {
 	color: #D9B26A;
 	text-decoration: underline
 }
 
-.links a:active {
+.about a:link {
+	font-family: Source Code Pro;
+	text-decoration: underline;
 	color: #D9B26A;
+}
+
+.about a:hover {
+	color: #D9B26A;
+	text-decoration: underline
+}
+
+.hobbies a:link {
+	font-family: Source Code Pro;
 	text-decoration: none;
+	color: #400D01;
+}
+
+.hobbies a:hover {
+	color: #D9B26A;
+	text-decoration: underline
 }
 
 .home {
@@ -103,9 +116,13 @@
 #content {
 	border: 2px solid;
 	border-color: #D9B26A;
-	width: 90%;
-	height: 70%;
 	margin: auto;
+	width: 90%;
+	height: auto;
+	border-image: linear-gradient(#400D01, #D9B26A) 10;
+	border-width: 4px;
+	border-style: solid;
+	background-color: transparent;
 }
 
 #content h3 {
@@ -122,4 +139,74 @@
 #content p {
 	font-family: Source Code Pro;
 	color: #400D01;
+}
+
+#content li {
+	font-family: Source Code Pro;
+	color: #400D01;
+}
+
+#banner {
+	width: 90%;
+	padding: 20px;
+	margin: auto;
+	display: flex;
+	position: relative;
+	left: 80px;
+	align-content: center;
+	background-color: transparent;
+}
+
+.banner-text {
+	background-color: transparent;
+	margin: auto;
+	padding: 20px;
+	width: 40%;
+	position: absolute;
+	top: 92px;
+	left: 580px;
+}
+
+#middle {
+	width: 90%;
+	padding: 20px;
+	margin: auto;
+	display: flex;
+	position: relative;
+	right: 25px;
+	align-content: center;
+	background-color: transparent;
+}
+
+.graphic {
+	background-color: transparent;
+	text-align: center;
+}
+
+.graphic p {
+	background-color: transparent;
+}
+
+#bottom {
+	width: 90%;
+	padding: 20px;
+	margin: auto;
+	display: flex;
+	position: relative;
+	right: 70px;
+	align-content: center;
+	background-color: transparent;
+}
+
+.text {
+	background-color: transparent;
+	padding: 20px;
+	margin: auto;
+	width: 40%;
+}
+
+.index {
+	float: right;
+	margin-top: 15px;
+	margin-right: 75px;
 }

@@ -12,12 +12,13 @@
 	margin: auto;
 }
 
+/* navbar */
 #navbar {
 	width: 90%;
 	height: 64px;
 	margin: auto;
 	line-height: 10px;
-	padding-bottom: 5px;
+	padding-bottom: 30px;
 }
 
 .title {
@@ -55,25 +56,37 @@
 	margin: auto;
 }
 
-.links a {
+.home a {
 	font-family: Source Code Pro;
 	text-decoration: none;
 	color: #400D01;
 }
 
-.links a:visited {
-	color: #400D01;
-	text-decoration: none;
-}
-
-.links a:hover {
+.home a:hover {
 	color: #D9B26A;
 	text-decoration: underline
 }
 
-.links a:active {
-	color: #D9B26A;
+.about a:link {
+	font-family: Source Code Pro;
 	text-decoration: none;
+	color: #400D01;
+}
+
+.about a:hover {
+	color: #D9B26A;
+	text-decoration: underline
+}
+
+.hobbies a:link {
+	font-family: Source Code Pro;
+	text-decoration: underline;
+	color: #D9B26A;
+}
+
+.hobbies a:hover {
+	color: #D9B26A;
+	text-decoration: underline
 }
 
 .home {
@@ -103,9 +116,13 @@
 #content {
 	border: 2px solid;
 	border-color: #D9B26A;
-	width: 90%;
-	height: 70%;
 	margin: auto;
+	width: 90%;
+	height: 1750px;
+	border-image: linear-gradient(#400D01, #D9B26A) 10;
+	border-width: 4px;
+	border-style: solid;
+	background-color: transparent;
 }
 
 #content h3 {
@@ -127,4 +144,69 @@
 #content li {
 	font-family: Source Code Pro;
 	color: #400D01;
+}
+
+.top-cards {
+	position: relative;
+	top: 10px;
+	width: 100%;
+	height: auto;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	background-color: transparent;
+}
+
+.top-cards h3 {
+	position: absolute;
+	background-color: transparent;
+	bottom: 395px;
+	left: 20px;
+}
+
+.top {
+	background-color: transparent;
+	text-align: left;
+	width: 100%;
+	padding: 20px;
+}
+
+.bottom {
+	position: relative;
+	margin: auto;
+	top: 50px;
+	width: 100%;
+	height: auto;
+}
+
+.bottom h4 {
+	position: absolute;
+	background-color: transparent;
+	left: 20px;
+}
+
+.bottom-content {
+	background-color: transparent;
+	position: relative;
+	top: 20px;
+	width: 100%;
+	height: auto;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.bottom-card {
+	background-color: transparent;
+	align-content: center;
+	text-align: center;
+	width: 30%;
+	padding: 20px;
+	
+}
+
+.index {
+	float: right;
+	margin-top: 15px;
+	margin-right: 75px;
 }
