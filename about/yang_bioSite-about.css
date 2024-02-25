@@ -56,6 +56,11 @@
 	margin: auto;
 }
 
+.links a {
+	color: #400D01;
+}
+
+
 .home a {
 	font-family: Source Code Pro;
 	text-decoration: none;
@@ -112,6 +117,16 @@
 	float: left;
 }
 
+#background {
+	background-color: transparent;
+	width: 100%;
+	position: fixed;
+	display: flex;
+	justify-content: flex-end;
+}
+#background img {
+	background-color: transparent;
+}
 
 #content {
 	border: 2px solid;
@@ -136,35 +151,49 @@
 	color: #400D01;
 }
 
-#content p {
-	font-family: Source Code Pro;
-	color: #400D01;
-}
-
-#content li {
-	font-family: Source Code Pro;
-	color: #400D01;
-}
-
 #banner {
 	width: 90%;
+	height: 100%;
+	max-height: 100%;
 	padding: 20px;
 	margin: auto;
 	display: flex;
+	justify-content: center;
 	position: relative;
 	left: 80px;
 	align-content: center;
 	background-color: transparent;
 }
 
+#banner img {
+	margin-top: 65px;
+}
+
 .banner-text {
-	background-color: transparent;
 	margin: auto;
 	padding: 20px;
 	width: 40%;
-	position: absolute;
-	top: 92px;
-	left: 580px;
+	height: 100%;
+	max-height: 100%;
+	background-color: transparent;
+}
+
+.banner-text h3 {
+	padding: 10px;
+	background-color: rgba(242,242,242,0.75);
+}
+
+.banner-text p {
+	font-family: Source Code Pro;
+	background-color: rgba(242,242,242,0.75);
+	color: rgba(64,13,1,1.00);
+	padding: 10px;
+}
+
+.banner-text a {
+	font-family: Source Code Pro;
+	background-color: rgba(64,13,1,1.00);
+	color: rgba(217,178,106,1.00);
 }
 
 #middle {
@@ -175,12 +204,22 @@
 	position: relative;
 	right: 25px;
 	align-content: center;
+	background-color: rgba(242,242,242,0.75);
+}
+
+#middle p {
 	background-color: transparent;
+	font-family: Source Code Pro;
+	color: rgba(217,178,106,1.00);
 }
 
 .graphic {
 	background-color: transparent;
 	text-align: center;
+}
+
+.graphic img {
+	background-color: transparent;
 }
 
 .graphic p {
@@ -196,6 +235,12 @@
 	right: 70px;
 	align-content: center;
 	background-color: transparent;
+}
+
+#bottom p {
+	font-family: Source Code Pro;
+	background-color: transparent;
+	color: rgba(64,13,1,1.00);
 }
 
 .text {

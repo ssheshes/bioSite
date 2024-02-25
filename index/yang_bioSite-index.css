@@ -56,6 +56,11 @@
 	margin: auto;
 }
 
+.links a {
+	color: #400D01;
+}
+
+
 .home a {
 	font-family: Source Code Pro;
 	text-decoration: underline;
@@ -157,27 +162,68 @@
 #content h3 {
 	font-family: Bahnschrift;
 	color: #567351;
+	background-color: transparent;
 }
 
 #content h4 {
 	font-family: Source Code Pro;
 	font-weight: bold;
 	color: #400D01;
+	background-color: transparent;
 }
 
 #content p {
 	font-family: Source Code Pro;
 	color: #400D01;
+	background-color: transparent;
+}
+
+#background {
+	z-index: 3;
+	background-color: transparent;
+	position: absolute;
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+}
+
+#background img {
+	background-color: transparent;
+	width: 30%;
+	margin-top: 180px;
+	margin-right: 50px;
+}
+
+#background-2 {
+	z-index: 3;
+	background-color: transparent;
+	position: absolute;
+	display: flex;
+	justify-content: flex-start;
+	width: 100%;
+}
+
+#background-2 img {
+	z-index: 3;
+	-webkit-transform: scaleX(-1);
+  	-moz-transform: scaleX(-1);
+  	-o-transform: scaleX(-1);
+  	transform: scaleX(-1);
+	background-color: transparent;
+	width: 10%;
+	margin-top: 180px;
+	margin-left: 90px;
 }
 
 /* customize banner */
 #banner {
 	width: 100%;
 	position: relative;
+	background-color: transparent;
 }
 
 .banner-text {
-	background-color: rgba(272, 272, 272, 0.5);
+	background-color: rgba(272, 272, 272, 0.75);
 	width: 30%;
 	position: absolute;
 	padding: 20px;
@@ -202,6 +248,7 @@
 	margin: auto;
 	display: flex;
 	justify-content: center;
+	background-color: transparent;
 }
 
 #accomplishments h3 {
@@ -210,11 +257,13 @@
 	left: 155px;
 	margin: auto;
 	float: left;
+	background-color: transparent;
 }
 
 .cards {
 	position: relative;
 	margin: auto;
+	background-color: transparent;
 }
 
 .accomplishment-card {
@@ -223,10 +272,12 @@
 	padding: 20px;
 	float: left;
 	margin: auto;
+	background-color: transparent;
 }
 
 .accomplishment-text {
 	width: 450px;
+	background-color: transparent;
 }
 
 .accomplishment-card2 {
@@ -234,13 +285,16 @@
 	height: auto;
 	padding: 20px;
 	float: left;
+	background-color: transparent;
 }
 
 .accomplishment-text2 {
 	width: 450px;
+	background-color: transparent;
 }
 
 .index {
+	z-index: 5;
 	float: right;
 	margin-top: 15px;
 	margin-right: 75px;
